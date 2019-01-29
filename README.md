@@ -14,11 +14,21 @@ Proyecto de Maching Learning de Decodificación Cerebral
     
     conda activate tensorflow_env               // Activacion del entorno virtual
 ```
+*Ubuntu*
+```sh
+    conda create -n tensorflow_env tensorflow   // Creacion del entorno virtual
+    
+    source activate tensorflow_env               // Activacion del entorno virtual
+```
 	 
 4. Instalamos jupyter-notebook y dependencias
 
 ```sh
     pip install jupyter-notebook pandas keras seaborn sklearn scipy
+```
+*Ubuntu* (Igual con todas las dependencias)
+```sh
+    conda install jupyter
 ```
 
 5. Iniciamos jupyter
